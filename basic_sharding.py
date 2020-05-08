@@ -8,7 +8,6 @@ nltk.download('punkt')
 
 # User-defined parameters
 input_text_file = 'sample_data.txt'  # One article per line
-intermediate_text_file = 'data_segmented.txt'  # One sentence per line
 shard_path = 'shards'  # subdirectory to put shards in
 n_shards = 1024  # Pick too few and create_pretraining_data.py takes more memory and time (higher is faster but limits randomization of dataset)
 #n_shards = 4  # for testing with sample file
