@@ -1,3 +1,6 @@
+# NVIDIA 2020
+# License provided under https://github.com/NVIDIA/DeepLearningExamples/blob/master/TensorFlow/LanguageModeling/BERT/LICENSE
+
 # This script takes in a single text file with one article per line
 # and outputs text shards with one setence per line and one blank line between articles
 
